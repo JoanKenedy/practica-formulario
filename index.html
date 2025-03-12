@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Contact form</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+   <section>
+    <form class="form">
+      <div class="input-container">
+        <h1>Contact Us</h1>
+      </div>
+      
+      <div class="input-container">
+        <label for="">Firts Name <span>*</span></label>
+        <input type="text" id="nombre">
+        <div class="error"></div>
+      </div>
+      <div class="input-container">
+        <label for="">Last Name <span>*</span></label>
+        <input type="text" id="apellidos">
+        <div class="error"></div>
+      </div>
+      <div class="input-container">
+        <label for="">Email Address <span>*</span></label>
+        <input type="email" name="" id="email">
+        <div class="error"></div>
+      </div>
+      <div class="input-container">
+        <label for="">Query Type <span>*</span></label>
+        <div class="inputs-radio radio1">
+            <input type="radio" name="query1" class="query" value="General Enquiry" placeholder=""> General Enquiry
+        </div>
+        <div class="inputs-radio">
+           <input type="radio" name="query1" class="query" value="Support Request" placeholder="">Support Request
+        </div>
+        <div class="error"></div>
+      </div>
+      <div class="input-container">
+        <label for="">Message <span>*</span></label>
+        <textarea name="" id="message"  rows="10" cols="auto"></textarea>
+        <div class="error"></div>
+      </div>
+      <div class="input-container">
+        <input type="checkbox" name="" id="aceptado">
+        <label for="">I consent to being contacted by the team <span>*</span></label>
+        <div class="error"></div>
+      </div>
+      <div class="input-container">
+        <input type="submit" value="Submit">
+      </div>
+    </div>
+   </section>
+
+  </main>
+   <script src="js/index.js"></script>
+
+ 
+  
+</body>
+</html>   
