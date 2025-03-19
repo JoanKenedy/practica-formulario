@@ -206,10 +206,7 @@ form .input-container{
 }
 
  @media (min-width:1300px){
-    section{
-   padding: 100px 0px;
-   height: 95%;
-   }
+   
     section form{
     width: 50%;
    
@@ -217,10 +214,7 @@ form .input-container{
 }
 
  @media (min-width:1400px){
-   section{
-   padding: 100px 0px;
-   height: 95%;
-   }
+   
     
     section form{
     width: 40%;
